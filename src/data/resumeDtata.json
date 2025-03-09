@@ -1,0 +1,164 @@
+{
+  "personalInfo": {
+    "name": "Vaishnavi Kadam",
+    "title": "Full Stack Developer",
+    "email": "vaishkadam21@gmail.com",
+    "phone": "+1 7738189950",
+    "location": "Chicago, IL",
+    "github": "https://github.com/vashh21",
+    "linkedin": "https://www.linkedin.com/in/vaishnavi kadam/",
+    "website": "https://medevs.xyz",
+    "summary": "Full Stack Developer specializing in JavaScript, PHP, and modern web technologies. Experienced in developing efficient web applications and optimizing enterprise software. Combining technical expertise with a passion for AI to create innovative solutions.",
+    "image": "https://avatars.githubusercontent.com/u/40724828?v=4"
+  },
+  "experience": [
+    {
+      "company": " Skyline Innovation Inc",
+      "position": "Software Web Developer Intern",
+      "startDate": "Jun 2024",
+      "endDate": "Present",
+      "description": [
+        "Engineered a voice recording and transcription system with OpenAI Whisper and Google Speech-to-Text, improving speech recognition and clarity by 45% in clinical tests with Parkinson’s patients.",
+        "Developed and integrated AI-driven, personalized speech therapy tasks utilizing ChatGPT, tailoring content to individual user profiles and resulting in a 35% increase in user engagement and motivation, as reported by early user testing",
+        "Implemented advanced speech analysis techniques using PRAAT, reducing speech metric errors by 50% and preparing for large-scale validation with 10,000 Parkinson's UK participants."
+      ],      
+      "companyUrl": "https://ephilos.de",
+      "location": "Chicago, IL"
+    },
+    {
+      "company": " Mauli Tablet Tools LLP",
+      "position": "Full Stack Development Intern",
+      "startDate": "Aug 2021",
+      "endDate": "Oct 2021",
+      "description": [
+        "Spearheaded development of full-stack web applications, driving impactful contributions across both frontend and backend domains, with a 40% increase in user-to-user interaction through a real-time chat feature.",
+        "Facilitated weekly sprint meetings for a 4-person team, ensuring on-time delivery of all project milestones and resolving 20+ critical bugs within a 2-week sprint, ensuring optimal system performance."
+      ],
+      "companyUrl": "https://ephilos.de",
+      "location": "Mumbai, India"
+    },
+    {
+      "company": "Digicable Network India Pvt Ltd",
+      "position": "Data Analyst Intern",
+      "startDate": "May 2019",
+      "endDate": "Jun 2019",
+      "description": [
+        "Analyzed historical data on channel acquisition costs, viewership, and profitability, securing 15% better deals on targeted channels aligned with customer preferences, leading to a 10% increase in profit margin.",
+        "Developed a demographic & content-based channel viewership prediction model using Python, enhancing decision-making processes and building impactful data visualization dashboards for clear communication of insights."
+      ],
+      "companyUrl": "https://ephilos.de",
+      "location": "Mumbai, India"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Illinois Institute of Technology",
+      "degree": "Master's in Computer Science",
+      "startDate": "Aug 2023",
+      "endDate": "May 2025",
+      "institutionUrl": "https://www.szut.de/",
+      "description": "Studied"
+    },
+    {
+      "institution": "Shah & Anchor Kutchhi Engineering College, University of Mumbai",
+      "degree": "Bachelor of Engineering in Information Technology",
+      "startDate": "May 2023",
+      "endDate": "Jul 2020",
+      "institutionUrl": "https://www.univ-littoral.fr",
+      "description": "Studied"
+    },
+    {
+      "institution": "Vidyalankar Polytechnic, University of Mumbai",
+      "degree": "Diploma in Computer Engineering",
+      "startDate": "May 2020",
+      "endDate": "Jul 2017",
+      "description": "Think.",
+      "institutionUrl": "https://www.ofppt.ma/"
+    }
+  ],
+  "skills": [
+    "React",
+    "Next.js",
+    "Astro",
+    "Javascript",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "PHP",
+    "Node.js",
+    "Express.js",
+    "Laravel",
+    "Python",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "Docker",
+    "Jest",
+    "CI/CD",
+    "VS Code",
+    "OpenAI",
+    "Langchain"
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "proficiency": "B2-C1"
+    },
+    {
+      "language": "English",
+      "proficiency": "B2"
+    },
+    {
+      "language": "French",
+      "proficiency": "B1"
+    },
+    {
+      "language": "Berber",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Arabic",
+      "proficiency": "Native"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Smart Portfolio",
+      "description": "Portfolio website with AI chatbot. Next.js, React.js, AI integration. Dynamic chatbot for answering questions. Modern web design for optimal UX.",
+      "technologies": ["Next.js", "React", "AI", "OpenAI", "Langchain", "Tailwind CSS"],
+      "link": "https://medevs.xyz"
+    },
+    {
+      "name": "Blog Genius",
+      "description": "AI-powered tool for creating blog articles. React, Next.js, OpenAI integration. Generation of outlines and content. Intuitive user interface.",
+      "technologies": ["React", "Next.js", "AI", "OpenAI", "Node.js"],
+      "link": "https://blog-genius.vercel.app/"
+    },
+    {
+      "name": "Your Daily Way",
+      "description": "High-performance blog with Astro and React. Focus on performance optimization and SEO. Markdown integration for easy content creation.",
+      "technologies": ["Astro", "React", "TypeScript", "SEO", "Markdown"],
+      "link": "http://yourdailyway.com/"
+    }
+  ],
+  "interests": [
+    "Open Source Contributions",
+    "AI and Machine Learning",
+    "Software Architecture",
+    "Problem Solving and Logical Thinking"
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified Professional (MCP)",
+      "date": "May 2018",
+      "description": "Focus: HTML, CSS, JavaScript"
+    }
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Logical Thinking",
+    "Teamwork",
+    "Communication"
+  ]
+}
