@@ -24,7 +24,7 @@ const educationItems: TimelineItem[] = [
     title: 'Bachelor of Engineering in Information Technology',
     organization: 'Shah & Anchor Kutchhi Engineering College, University of Mumbai',
     date: ' Jul 2020 – May 2023',
-    description: '"As Technical Head, I turned a blind coding event into a campus sensation—marketing it so well that 100+ participants signed up to debug blind, all thanks to some strategic persuasion and hype!',
+    description: 'As Technical Head, I turned a blind coding event into a campus sensation—marketing it so well that 100+ participants signed up to debug blind, all thanks to some strategic persuasion and hype!',
     skills: ['Artificial Intelligence & Data Science', 'Software Engineering', 'Database Management Systems (DBMS)', 'Internet Programming & Cloud Computing']
   },
   {

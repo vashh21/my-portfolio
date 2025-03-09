@@ -18,12 +18,10 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
     }
   }, [messages]);
 
-  // ✅ Auto-welcome message when chatbot opens
+  // ✅ Initial welcome message (only if no prior chat exists)
   useEffect(() => {
     if (open && messages.length === 0) {
-      setMessages([
-        { role: "assistant", content: "Hey! Need insights on my work? Ask away!" },
-      ]);
+      setMessages([{ role: "assistant", content: "Hey! Need insights on my work? Ask away!" }]);
     }
   }, [open]);
 
@@ -32,7 +30,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
     if (!input.trim()) return;
 
     const userMessage = { role: "user", content: input };
-    setMessages((prevMessages) => [...prevMessages, userMessage]); // ✅ Ensuring user message gets stored
+    setMessages((prevMessages) => [...prevMessages, userMessage]); // ✅ Store user message
     setInput("");
     setIsLoading(true);
 
@@ -50,14 +48,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
       const data = await res.json();
       const botReply = data.reply.trim(); // ✅ Ensuring AI response is trimmed properly
 
-      if (!botReply || botReply.endsWith("?")) {
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          { role: "assistant", content: "Here’s what I found: " + botReply }, // ✅ Forces AI to give actual content
-        ]);
-      } else {
-        setMessages((prevMessages) => [...prevMessages, { role: "assistant", content: botReply }]);
-      }
+      setMessages((prevMessages) => [...prevMessages, { role: "assistant", content: botReply }]);
     } catch (error) {
       console.error("Chat error:", error);
       setMessages((prevMessages) => [
@@ -111,7 +102,6 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
   );
 }
 
-// ✅ Chat Message Component (Handles AI & User Messages)
 function ChatMessage({ message }: { message: { role: string; content: string } }) {
   return (
     <div className={`mb-2 flex ${message.role === "assistant" ? "justify-start" : "justify-end"}`}>
