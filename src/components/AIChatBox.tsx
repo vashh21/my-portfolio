@@ -59,7 +59,6 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
       setIsLoading(false);
     }
   };
-
   return (
     <div className={`fixed bottom-16 right-4 z-50 w-full max-w-[450px] p-3 ${open ? "block" : "hidden"}`}>
       <div className="flex h-[550px] flex-col border bg-background shadow-lg rounded-lg overflow-hidden">
