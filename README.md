@@ -21,8 +21,8 @@ This project is a personal portfolio website built with Next.js, featuring an AI
 - Langchain (for AI chatbot functionality)
 - Supabase (for vector storage)
 - OpenAI (for embeddings and chat)
-- Upstash Redis (for caching)
 - Vercel (for deployment)
+- Upstash Redis (for caching)
 
 ## Project Structure
 
