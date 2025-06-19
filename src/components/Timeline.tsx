@@ -16,7 +16,7 @@ const educationItems: TimelineItem[] = [
     title: 'Master\'s in Computer Science',
     organization: 'Illinois Institute of Technology',
     date: 'Aug 2023 - May 2025',
-    description: '',
+    description: 'Served as Editor at TechNews, the official student newspaper of Illinois Tech, where I edited articles, managed content workflows, and coordinated with writers to publish weekly issues. Nominated for Business Manager and PR Chair for taking initiative in team organization and publication planning.',
     skills: ['Machine Learning', 'Big Data Technologies', 'Software Project Management', 'Data Preparation and Analysis', 'Science of Programming', 'Mobile Application Development']
   },
   {
@@ -38,32 +38,41 @@ const educationItems: TimelineItem[] = [
 ];
 
 const experienceItems: TimelineItem[] = [
+    {
+    type: 'experience',
+    title: 'Full Stack Developer Intern',
+    organization: 'Find Me LLC',
+    date: 'Jun 2025 - Sep 2025 · 4 months',
+    location: 'Chicago, IL',
+    description: 'Built and deployed scalable full stack features including machine learning integration, backend APIs, and responsive UI, while optimizing database performance, implementing third-party services, and enhancing system reliability in a startup environment.', 
+    skills: ['Machine Learning Integration', 'Backend API Development', 'Responsive Frontend Engineering', 'Database Design and Optimization', 'Third-Party API Integration']
+  },
   {
     type: 'experience',
-    title: ' Software Web Developer Intern',
-    organization: ' Skyline Innovation Inc',
+    title: 'Software Web Developer Intern',
+    organization: 'Skyline Innovation Inc',
     date: 'Jun 2024 - Aug 2024 · 3 months',
     location: 'Chicago, IL',
-    description: 'Engineered an AI-driven speech therapy system using Whisper, Google Speech-to-Text, ChatGPT, and PRAAT, achieving 45% clarity improvement and preparing for large-scale validation with 10,000+ Parkinson’s UK participants.', 
-    skills: ['Automatic Speech Recognition (ASR)', 'AI and NLP', 'Speech Analysis']
+    description: 'Engineered and deployed a real-time speech processing system using OpenAI Whisper, Google Speech-to-Text, and LLMs, improving transcription accuracy by 45% and reducing recognition errors by 50%, in preparation for large-scale validation with 10,000 Parkinson’s UK participants.', 
+    skills: ['API Integration', 'Backend System Design', 'AI/ML Model Deployment', 'Scalable Feature Engineering', 'Chatbot System Development']
   },
   {
     type: 'experience',
-    title: 'Full Stack Development Intern',
+    title: 'Full-Stack Developer Intern',
     organization: 'Mauli Tablet Tools LLP',
-    date: 'Aug 2021 - Feb 2022 · 6 months',
+    date: 'Aug 2021 - May 2022 · 10 months',
     location: 'Mumbai, India',
-    description: 'Developed full-stack web apps using React & Node.js, boosting user engagement by 40% with real-time chat, integrating an SMTP-based email system, and resolving 20+ critical bugs in Scrum-managed sprints to optimize performance.',
-    skills: ['Chatbot', 'Email System Integration', 'Database Management']
+    description: 'Built and deployed full-stack web features including chatbot support and dynamic client registration using modern frameworks, contributed to backend logic and integrations, and enforced testing and documentation standards to support scalable system design.',
+    skills: ['Full-Stack Web Development', 'API & Feature Integration', 'Backend Engineering', 'Testing and Deployment', 'Cross-Functional Collaboration']
   },
   {
     type: 'experience',
-    title: 'Data Analyst Intern',
+    title: 'Software Developer Intern',
     organization: ' Digicable Network India Pvt Ltd',
-    date: 'May 2019 - Jun 2019 · 3 months',
+    date: 'May 2019 - Apr 2020 · 1 year',
     location: 'Mumbai, India',
-    description: 'Optimized content acquisition and viewership strategies using Python, SQL, and machine learning, improving deals by 15% and profit margins by 10% through predictive modeling and data-driven decision-making.',
-    skills: ['Statistical Modeling', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Tableau', 'Market Research & Consumer Insights']
+    description: 'Designed and implemented backend automation tools using Python and Node.js to validate metadata across 300+ satellite feeds and deploy configuration workflows for 500+ digital TV channels, improving system reliability and reducing deployment time by 40%.',
+    skills: ['Backend Development', 'Script Optimization', 'Process Automation', 'System Integration', 'Deployment Engineering']
   }
 ];
 const TimelineItem: React.FC<{ item: TimelineItem }> = ({ item }) => (
