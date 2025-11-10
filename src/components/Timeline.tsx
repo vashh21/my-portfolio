@@ -64,7 +64,7 @@ const experienceItems: TimelineItem[] = [
     title: 'Software Developer',
     organization: 'UBER',
     date: 'Jun 2025 – Present',
-    location: 'IL, USA',
+    location: 'CA, USA',
     description:
       'Built a fare-calculation microservice with Spring Boot + PostgreSQL (sub-150ms). Revamped the driver dashboard in React + Material UI (4.8s → 1.9s). Shipped secure trip-history endpoints with Express.js, JWT, and MongoDB (2M+ authenticated req/day). Delivered real-time vehicle tracking via WebSockets/Node.js (70k+ concurrent). Launched a Next.js SSR promos frontend (-11% bounce). Integrated an Angular admin panel to streamline ops review.',
     skills: [
